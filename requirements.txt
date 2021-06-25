@@ -1,0 +1,6 @@
+carbonsh==0.1.0
+python-telegram-bot==13.4.1
+Pillow==8.2.0
+pytesseract==0.3.7
+requests==2.25.1
+selenium==3.141.0
