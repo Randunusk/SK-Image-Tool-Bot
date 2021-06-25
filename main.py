@@ -206,7 +206,17 @@ supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
 Support Group : <a href=\"https://t.me/slbotzone\">sl bot zone </a> 🦸‍♂️
 
 Made By <a href=\"https://t.me/slbotzone\"> sl geek show  </a> ❤️
-
+ reply_markup=InlineKeyboardMarkup(
+                                [[
+                                        InlineKeyboardButton(
+                                            "🌟 Help 🌟 ", callback_data="help"),
+                                        InlineKeyboardButton(
+                                            "🗣 Channel 🗣 ", url="https://t.me/slbotzone")
+                                    ],[
+                                      InlineKeyboardButton(
+                                            "😇 create your own bot 😇 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1")
+                                    ]]
+                            ),        
 </b>
 '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=welcome, parse_mode='html',
