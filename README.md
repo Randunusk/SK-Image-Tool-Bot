@@ -1,9 +1,16 @@
 <p align="center"><a href="https://t.me/slbotzone"><img src="https://telegra.ph/file/0a91e9228290e7c6d8ea5.jpg" width="500"></a></p> 
-<p align='center'>// <a href="https://dribbble.com/Dangerdom">Image Credits</a> //</p>
+<p align='center'>// <a href="https://dribbble.com/Dangerdom">image api credits</a> //</p>
 
-<h1 align="center">theimagebot</h1>
+<h1 align="center">advance image editor bot </h1>
 
 <h4 align="center">A Telegram Bot Which Can Do Many Things With Image</h4>
+<img align="right" src="https://github.com/RazorKenway/RazorKenway/raw/main/Developer.gif" style="max-width:100%;">
+
+[![Youtube](https://img.shields.io/badge/YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1)&nbsp;
+[![Telegram](https://img.shields.io/badge/Bemro%20Team-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/slbotzone)&nbsp;
+[![Facebook](https://img.shields.io/badge/Follow%20me%20on%20Facebook-2533cf?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=facebook)](https://www.facebook.com/SL-Geek-Show-yt-103654258471929/)&nbsp;
+[![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp;
+[![Github](https://img.shields.io/badge/Github-000000?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/youtubeslgeekshow) 
 
 <p> ➠ I Can Carbonized Your Code </p>
 <p> ➠ I Can Extract Text From An Image</p>
@@ -16,8 +23,19 @@
 
 <a href="https://t.me/theimagebot"><img src="https://img.shields.io/badge/Bot%20Status%20-Up-%3CCOLOR%3E"></a>
 
+### Deploy to Heroku 🔥🕺 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/fastsongdownloaderbot)
+
+###              The easiest way to deploy this Song Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/fastsongdownloaderbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+
+
+###   <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+###  🧙‍♀️ Deploy Guide
+<a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://telegra.ph/file/beca543cd87ec72be6069.jpg"></a>
+
+
 
 
 ## Support
@@ -49,14 +67,3 @@
 
 ```
 
-# Licence
-
-* Copyright (C) 2020-2021 by <a href="https://github.com/NoOneLuvMe">NoOneLuvMe@Github</a>.
-
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
-
-theimagebot is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
