@@ -1,18 +1,18 @@
 {
-  "name": "theimageBot",
+  "name": "advance image editor bot",
   "description": "A Telegram Bot Which Can Do Many Things With Image",
   "keywords": [
     "telegram",
     "python",
     "bots"
   ],
-  "website": "https://github.com/RabbitFored/Dwindle-telegram-bot/",
-  "repository": "https://github.com/RabbitFored/Dwindle-telegram-bot/",
-  "success_url": "https://t.me/dwindle_bot",
+  "website":"https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA",
+  "repository": "https://github.com/youtubeslgeekshow/advance-image-tool-bot",
+  "success_url": "https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
-      "value": "OSTRICH"
+      "value": "sl bot zone"
     },
     "BOT_TOKEN": {
       "description": "Your bot token",
