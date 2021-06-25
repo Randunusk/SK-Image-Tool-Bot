@@ -1,7 +1,7 @@
-# Repo -> https://github.com/NoOneLuvMe/theimagebot
-# Dev -> t.me/no_one_luv_me
-# channel -> https://t.me/theostrich
-# support -> https://t.me/ostrichdiscussion
+# Repo -> https://github.com/youtubeslgeekshow/advance-image-tool-bot
+# Dev -> t.me/supunma
+# channel -> https://t.me/SL_bot_zone
+# support -> https://t.me/slbotzone
 
 import requests
 import logging
@@ -33,7 +33,7 @@ Generating 🍧 Text From The Image 🌠
 
 Please Don't Spam 🥺
 
-Join please @OMG_info🙄
+Join please @slbotzone🙄
     </b>'''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
     pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"
@@ -49,7 +49,7 @@ Join please @OMG_info🙄
     image_to_text = pytesseract.image_to_string(blueBand, lang='eng')
     image_to_text += '''
 
-Text from Image By @Carbon0_bot ❤
+Text from Image By @slbotzone❤
     '''
     context.bot.send_message(chat_id=update.effective_chat.id, text=image_to_text)
 
@@ -69,7 +69,7 @@ def addwatermark(update, context):
     if size_ < 100:
 
         context.bot.get_file(update.message.reply_to_message.photo[-1]).download(
-            custom_path="./downloads/@theimagebot.png")
+            custom_path="./downloads/@slbotzone.png")
         messa = '''<b>
 Please Wait For Few Seconds 🧘‍♂️
 
@@ -77,7 +77,7 @@ Adding Watermark 🍃 to the image 🌠
 
 Please Don't Spam 🥺
 
-Join please @OMG_info☹️
+Join please @slbotzone☹️
                 </b>'''
         update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
 
@@ -97,11 +97,11 @@ Join please @OMG_info☹️
 
         # draw watermark in the bottom right corner
         draw.text((x, y), text, font=font)
-        photo.save('./downloads/@theimagebot.png')
+        photo.save('./downloads/@slbotzone.png')
 
-        caption = "<b>Watermark Added By <a herf=\"http://t.me/theimagebot\">@theimagebot</a></b>❤️"
+        caption = "<b>Watermark Added By <a herf=\"http://t.me/slbotzone\">@slbotzone</a></b>❤️"
         context.bot.send_document(chat_id=update.effective_chat.id,
-                                  document=open('./downloads/@theimagebot.png', 'rb'),
+                                  document=open('./downloads/@slbotzone.png', 'rb'),
                                   caption=caption, parse_mode="html")
 
     else:
@@ -117,7 +117,7 @@ def blur(update, context):
     username = update.message.chat.username
     print("Blured By : ", username)
     context.bot.get_file(update.message.reply_to_message.photo[-1]).download(
-        custom_path="./downloads/@theimagebot.png")
+        custom_path="./downloads/@slbotzone.png")
     blur_radious = int(context.args[0])
 
     if blur_radious < 100:
@@ -127,18 +127,18 @@ Please Wait For Few Seconds 🧘‍♂️
 
 Start Bluring 🧖‍♂️ the image 🌠
 
-Please join @OMG_info 🥺
+Please join @slbotzone 🥺
                             </b>'''
 
         update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
 
-        Photo = Image.open("./downloads/@theimagebot.png")
+        Photo = Image.open("./downloads/@slbotzone.png")
         photo = Photo.filter(ImageFilter.GaussianBlur(radius=blur_radious))
-        photo.save('./Editing/@theimagebot.png')
+        photo.save('./Editing/@slbotzone.png')
 
-        caption = "<b>Blured  By <a herf=\"http://t.me/theimagebot\">@theimagebot</a></b> ❤️"
+        caption = "<b>Blured  By <a herf=\"http://t.me/slbotzone\">@slbotzone</a></b> ❤️"
         context.bot.send_document(chat_id=update.effective_chat.id,
-                                  document=open('./Editing/@theimagebot.png', 'rb'),
+                                  document=open('./Editing/@slbotzone.png', 'rb'),
                                   caption=caption, parse_mode="html")
 
     else:
@@ -153,7 +153,7 @@ def reverse(update, context):
     username = update.message.chat.username
     print("Reverse By : ", username)
     context.bot.get_file(update.message.reply_to_message.photo[-1]).download(
-        custom_path="./downloads/@theimagebot.png")
+        custom_path="./downloads/@slbotzone.png")
     messa = '''<b>
 Please Wait For Few Seconds 🧘‍♂️
 
@@ -164,7 +164,7 @@ Please Don't Spam 🥺
 
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
 
-    filePath = "./downloads/@theimagebot.png"
+    filePath = "./downloads/@slbotzone.png"
     searchUrl = 'http://www.google.hr/searchbyimage/upload'
     multipart = {'encoded_image': (filePath, open(filePath, 'rb')), 'image_content': ''}
     response = requests.post(searchUrl, files=multipart, allow_redirects=False)
@@ -175,7 +175,7 @@ Please Don't Spam 🥺
 {fetchUrl}
 
 <b>Reversed By️
-   <a herf=\"http://t.me/theimagebot\">@theimagebot</a></b> ❤
+   <a herf=\"http://t.me/slbotzone\">@slbotzone</a></b> ❤
 '''
     context.bot.send_message(chat_id=update.effective_chat.id, text=link, parse_mode='html')
 
@@ -187,10 +187,9 @@ def start(update, context):
     welcome = f'''
 <b>Hey {username} 👋
 
-I'm <a herf=\"http://t.me/theimagebot\">theimagebot</a> 
-
-I'm a Open Source Bot 
-/source_code to Get Repo Link 😌
+I'm <a herf=\"http://t.me/slbotzone\">slbotzone</a> 
+මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
+https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
 
 I Can Do Many Things
 
@@ -202,11 +201,11 @@ I Can Do Many Things
 
 Hit /help If You Don't Know How to Use Me 
 
-Developer : <a href=\"t.me/shado_hackers\"> noob poppl </a>🧑‍💻
+owner  : <a href=\"t.me/supunma\"> supun maduranga  </a>🧑‍💻
+supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
+Support Group : <a href=\"https://t.me/slbotzone\">sl bot zone </a> 🦸‍♂️
 
-Support Group : <a href=\"https://t.me/OMG_info\">OMG!nfo</a> 🦸‍♂️
-
-Made By <a href=\"https://t.me/shado_hackers\"> LUSIFER </a> ❤️
+Made By <a href=\"https://t.me/slbotzone\"> sl geek show  </a> ❤️
 
 </b>
 '''
@@ -234,16 +233,16 @@ To Add watermark to an image 🏋️‍♂
 ️
 replay to an image with /addwatermark {text to be watermark}:{watermark size}
 
-example: /addwatermark @OMG_info:30
+example: /addwatermark @slbotzone
 
 To Blur A Image 🚵‍♀️
 
 replay to an image with /blur {blur value}
 
 example: /blur 40
+මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
+https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
 
-I'm a Open Source Bot 
-/source_code to Get Repo Link 😌
 *
     '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=help_, parse_mode='markdown')
@@ -257,7 +256,7 @@ Please Wait For Few Seconds 🧘‍♂️
 
 Carbonizing 🌿 the Your Code 👨‍💻
 
-Please help me to join @OMG_info 🥺
+Please help me to join @slbotzone 🥺
                                         </b>'''
 
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
@@ -290,7 +289,7 @@ Please help me to join @OMG_info 🥺
     button = driver.find_element_by_xpath("//button[@class='jsx-1730877631 ']")
     button.click()
     time.sleep(5)
-    caption = "<b>Carbonized By <a herf=\"http://t.me/theimagebot\">@theimagebot</a></b>❤️"
+    caption = "<b>Carbonized By <a herf=\"http://t.me/slbotzone\">@slbotzone</a></b>❤️"
     context.bot.send_document(chat_id=update.effective_chat.id,
                               document=open('./Carbon/carbon.png', 'rb'),
                               caption=caption, parse_mode="html")
@@ -303,15 +302,16 @@ def source_code(update, context):
     print("Source  : ", username)
     source = '''
 
-Developer : <a href=\"t.me/no_one_luv_me\"> ෴ 乂(≧▽≦) 乂 ෴ </a>🧑‍💻
+👨‍💻 owner  : <a href=\"t.me/supunma\"> supun maduranga  </a>🧑‍💻
+👨‍💻 supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
     
-Repository Link : https://github.com/NoOneLuvMe/theimagebot
+📦 Repository Link : https://github.com/youtubeslgeekshow/advance-image-tool-bot
     
 <b>Give a 🌟 if you liked the repo ❤️</b>
 
-Support Group : <a href=\"https://t.me/ostrichdiscussion\">Ostrich Discussion</a> 🦸‍♂️
+👨‍💻 Support Group : <a href=\"https://t.me/slbotzone\">slbotzone </a> 🦸‍♂️
 
-Made By <a href=\"https://t.me/theostrich\"> Ostrich </a> ❤️  
+👨‍💻 Made By <a href=\"https://t.me/slbotzone\"> slbotzone </a> ❤️  
 
 
  
@@ -345,6 +345,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-# Dev -> t.me/no_one_luv_me
-# channel -> https://t.me/theostrich
-# support -> https://t.me/ostrichdiscussion
+# Dev -> t.me/supunma
+# channel -> https://t.me/slbotzone
+# support -> https://t.me/slbotzone
