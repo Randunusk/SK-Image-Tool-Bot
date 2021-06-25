@@ -25,10 +25,10 @@
 
 ### Deploy to Heroku 🔥🕺 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/fastsongdownloaderbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/advance-image-tool-bot)
 
 ###              The easiest way to deploy this Song Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/fastsongdownloaderbot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/youtubeslgeekshow/advance-image-tool-bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 
 ###   <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
