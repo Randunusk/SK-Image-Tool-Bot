@@ -205,17 +205,7 @@ supporter  : <a href=\"t.me/supunma\"> Supun Maduranga </a>🧑‍💻
 Support Group : <a href=\"https://t.me/hackingsinhalasl\">Hackers.lk </a> 🦸‍♂️
 
 Made By <a href=\"https://t.me/hackingsinhalasl\"> Hackers.lk  </a> ❤️
-reply_markup=InlineKeyboardMarkup(
-                                [[
-                                        InlineKeyboardButton(
-                                            "🌟 Help 🌟 ", callback_data="help"),
-                                        InlineKeyboardButton(
-                                            "🗣 Channel 🗣 ", url="https://t.me/hackingsinhalasl")
-                                    ],[
-                                      InlineKeyboardButton(
-                                            "😇 Contact Owner 😇 ", url="https://t.me/Sasmithakr")
-                                    ]]
-                            ),        
+reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Help 🌟 ", callback_data="help"),InlineKeyboardButton("🗣 Channel 🗣 ", url="https://t.me/hackingsinhalasl")],[InlineKeyboardButton("😇 Contact Owner 😇 ", url="https://t.me/Sasmithakr")]]),        
 </b>
 '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=welcome, parse_mode='html',
