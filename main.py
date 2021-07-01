@@ -205,7 +205,7 @@ supporter  : <a href=\"t.me/supunma\"> Supun Maduranga </a>🧑‍💻
 Support Group : <a href=\"https://t.me/hackingsinhalasl\">Hackers.lk </a> 🦸‍♂️
 
 Made By <a href=\"https://t.me/hackingsinhalasl\"> Hackers.lk  </a> ❤️
- reply_markup=InlineKeyboardMarkup(
+reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🌟 Help 🌟 ", callback_data="help"),
