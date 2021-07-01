@@ -33,7 +33,7 @@ Generating 🍧 Text From The Image 🌠
 
 Please Don't Spam 🥺
 
-Join please @slbotzone🙄
+Join please @hackingsinhalasl🙄
     </b>'''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
     pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"
@@ -49,7 +49,7 @@ Join please @slbotzone🙄
     image_to_text = pytesseract.image_to_string(blueBand, lang='eng')
     image_to_text += '''
 
-Text from Image By @slbotzone❤
+Text from Image By @Sasmithakr❤
     '''
     context.bot.send_message(chat_id=update.effective_chat.id, text=image_to_text)
 
