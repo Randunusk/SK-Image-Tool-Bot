@@ -33,7 +33,7 @@ Generating 🍧 Text From The Image 🌠
 
 Please Don't Spam 🥺
 
-Join please @slbotzone🙄
+Join please @hackingsinhalasl🙄
     </b>'''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
     pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"
@@ -49,7 +49,7 @@ Join please @slbotzone🙄
     image_to_text = pytesseract.image_to_string(blueBand, lang='eng')
     image_to_text += '''
 
-Text from Image By @slbotzone❤
+Text from Image By @hackingsinhala❤
     '''
     context.bot.send_message(chat_id=update.effective_chat.id, text=image_to_text)
 
@@ -77,7 +77,7 @@ Adding Watermark 🍃 to the image 🌠
 
 Please Don't Spam 🥺
 
-Join please @slbotzone☹️
+Join please @hackingsinhalasl☹️
                 </b>'''
         update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
 
@@ -127,7 +127,7 @@ Please Wait For Few Seconds 🧘‍♂️
 
 Start Bluring 🧖‍♂️ the image 🌠
 
-Please join @slbotzone 🥺
+Please join @hackingsinhalasl🥺
                             </b>'''
 
         update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
@@ -188,8 +188,7 @@ def start(update, context):
 <b>Hey {username} 👋
 
 I'm <a herf=\"http://t.me/slbotzone\">slbotzone</a> 
-මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
-https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
+මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන්.
 
 I Can Do Many Things
 
@@ -201,20 +200,20 @@ I Can Do Many Things
 
 Hit /help If You Don't Know How to Use Me 
 
-owner  : <a href=\"t.me/supunma\"> supun maduranga  </a>🧑‍💻
-supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
-Support Group : <a href=\"https://t.me/slbotzone\">sl bot zone </a> 🦸‍♂️
+owner  : <a href=\"t.me/Sasmithakr\"> Sasmitha Kavija  </a>🧑‍💻
+supporter  : <a href=\"t.me/supunma\"> Supun Maduranga </a>🧑‍💻
+Support Group : <a href=\"https://t.me/hackingsinhalasl\">Hackers.lk </a> 🦸‍♂️
 
-Made By <a href=\"https://t.me/slbotzone\"> sl geek show  </a> ❤️
+Made By <a href=\"https://t.me/hackingsinhalasl\"> Hackers.lk  </a> ❤️
  reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🌟 Help 🌟 ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "🗣 Channel 🗣 ", url="https://t.me/slbotzone")
+                                            "🗣 Channel 🗣 ", url="https://t.me/hackingsinhalasl")
                                     ],[
                                       InlineKeyboardButton(
-                                            "😇 create your own bot 😇 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1")
+                                            "😇 Contact Owner 😇 ", url="https://t.me/Sasmithakr")
                                     ]]
                             ),        
 </b>
@@ -243,15 +242,14 @@ To Add watermark to an image 🏋️‍♂
 ️
 replay to an image with /addwatermark {text to be watermark}:{watermark size}
 
-example: /addwatermark @slbotzone
+example: /addwatermark @hackingsinhalasl
 
 To Blur A Image 🚵‍♀️
 
 replay to an image with /blur {blur value}
 
 example: /blur 40
-මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
-https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
+මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන්.
 
 *
     '''
@@ -266,7 +264,7 @@ Please Wait For Few Seconds 🧘‍♂️
 
 Carbonizing 🌿 the Your Code 👨‍💻
 
-Please help me to join @slbotzone 🥺
+Please help me to join @hackingsinhalasl 🥺
                                         </b>'''
 
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
@@ -312,16 +310,12 @@ def source_code(update, context):
     print("Source  : ", username)
     source = '''
 
-👨‍💻 owner  : <a href=\"t.me/supunma\"> supun maduranga  </a>🧑‍💻
-👨‍💻 supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
-    
-📦 Repository Link : https://github.com/youtubeslgeekshow/advance-image-tool-bot
-    
-<b>Give a 🌟 if you liked the repo ❤️</b>
+👨‍💻 owner  : <a href=\"t.me/Sasmithakr\"> Sasmitha Kavija  </a>🧑‍💻
+👨‍💻 supporter  : <a href=\"t.me/supunma\"> Supun Maduranga </a>🧑‍💻
 
-👨‍💻 Support Group : <a href=\"https://t.me/slbotzone\">slbotzone </a> 🦸‍♂️
+👨‍💻 Support Group : <a href=\"https://t.me/hackingsinhalachat\">Hackers.lk </a> 🦸‍♂️
 
-👨‍💻 Made By <a href=\"https://t.me/slbotzone\"> slbotzone </a> ❤️  
+👨‍💻 Made By <a href=\"https://t.me/Sasmithakr\"> Sasmitha Kavija </a> ❤️  
 
 
  
